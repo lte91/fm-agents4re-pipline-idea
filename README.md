@@ -1,13 +1,17 @@
 # From Elicitation to Management: A Comprehensive Pipeline for Requirements Engineering with Foundation Models
 
-This repository provides a proof-of-concept implementation of the pipeline proposed in the paper "From Elicitation to Management: A Comprehensive Pipeline for Requirements Engineering with Foundation Models". The pipeline leverages foundation models, such as large language models and code generators, to support all phases of Requirements Engineering (RE), including elicitation, analysis, documentation, validation, and management.
+This repository provides a proof-of-concept implementation of the pipeline proposed in the paper "From Elicitation to Management: A Comprehensive Pipeline for Requirements Engineering with Foundation Models". The pipeline leverages foundation models, illustration can be found below, such as large language models and code generators, to support all phases of Requirements Engineering (RE), including elicitation, analysis, documentation, validation, and management.
+
+![MAS-System(2)](https://github.com/user-attachments/assets/947d3990-efd6-467c-85b6-76c8670c991d)
 
 ---
 Contents:
 - Prompts and Patterns: This directory contains the specific prompt patterns and templates designed for each RE phase to guide the LLMs in generating and refining RE deliverables.
 - Results: This directory includes sample outputs from the PoC experiment, showcasing the generated RE deliverables across different phases, such as classified requirements, specifications, user stories, tasks, and traceability matrices.
 
-Note: This repository is intended to provide a starting point for further research and development, rather than a production-ready implementation. The prompts and results provided will inspire and guide future work in this area.
+> Note: 
+> This repository is intended to provide a starting point for further research and development, rather than a production-ready implementation. The prompts and results provided will inspire and guide future work in this area.
+
 ---
 ## Example Prompts
 
@@ -57,12 +61,9 @@ USER_PROMPT_TRACE   = ''
 
 ---
 ## Results
+This post presents the first results of a proof-of-concept using a prompting-based approach to facilitate preparatory tasks in all phases of requirements engineering, including elicitation, analysis, documentation, validation and management, as a precursor to the development of a comprehensive pipeline concept.
 
-
-
-
-
-
+![sim_plot_all_similarity_final_2](https://github.com/user-attachments/assets/89ef487d-2209-4874-99a8-15212d5d7265)
 
 
 
