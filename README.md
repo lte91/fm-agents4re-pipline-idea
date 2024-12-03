@@ -68,8 +68,9 @@ USER_PROMPT_TRACE   = 'For each requirement from the {requirements} documentatio
 
 ---
 ## Results
-This post presents the first results of a proof-of-concept using a prompting-based approach to facilitate preparatory tasks in all phases of requirements engineering, including elicitation, analysis, documentation, validation and management, as a precursor to the development of a comprehensive pipeline concept.
+This post presents the first results of a proof-of-concept using a prompting-based approach to facilitate preparatory tasks in all phases of requirements engineering, including elicitation, analysis, documentation, validation, and management, as a precursor to the development of a comprehensive pipeline concept. The presented approach leverages foundation models to support a multi-agent system, demonstrating the potential of AI-driven methods in streamlining and augmenting human capabilities throughout the RE process. 
 
+The results, as shown in the plot below, illustrate the similarity scores achieved by the foundation model in generating relevant content for each RE phase, highlighting the promise of this approach in automating preparatory tasks and enhancing the overall efficiency of requirements engineering.
 ![sim_plot_all_similarity_final_2](https://github.com/user-attachments/assets/89ef487d-2209-4874-99a8-15212d5d7265)
 
 
