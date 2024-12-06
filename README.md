@@ -19,7 +19,11 @@ The prompt pattern involves defining the role and expertise of the user, specify
 
 ````
 Fundamental Form:
+System-Prompt
                     <Persona><Expertise><Objective/Task><Instructions/Template(if applicable)>
+
+User-Prompt
+                    <Instruction><Task> for each <Scope> in the {<Input_File/Previous_Result>}, proceed step-by-step and create <Output_Documentation> based on the template:\n{<Template_File>}.
 ````
 
 ### Elicitation
